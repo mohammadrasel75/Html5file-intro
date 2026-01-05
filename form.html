@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitha Ghor</title>
+    <style>
+        form .basic-info label{
+            display: block;
+            margin: 15px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -11,15 +17,47 @@
             <section>
                 <h2>Jamal mother pitha ghor</h2>
                 <form >
+                    <fieldset class="basic-info">
                     <labe for="name">Your Name </label>
                     <input type="text" name="" id="name">
+                 
 
                     <label for="email">Your email address </label>
                      <input type="email" name="" id="email">
+
+                        </fieldset>
                       <fieldset>
                         <legend>Pitha Info</legend>
-                        
+                        <input type="radio" name="Pitha" id="chitoy"> 
+                        <label for="chitoy">Chitoy</label>
+
+                        <input type="radio" name="Pitha" id="vapa"> 
+                        <label for="vapa">Vapa</label>
+
+                        <input type="radio" name="Pitha" id="vapa"> 
+                        <label for="vapa">Dhal Puri</label>  
+
                       </fieldset>
+
+                      <fieldset>
+                        <legend>
+                            <input type="checkbox" name="" id="sorisa"> 
+                            <label for="sorisa">Shukti</label>
+
+                            <input type="checkbox" name="" id="shukti"> 
+                            <label for="shukti">Shukti</label>
+
+                            <input type="checkbox" name="" id="morich"> 
+                            <label for="morich">morich</label>
+                        </legend>
+                      </fieldset>
+
+                      <fieldset>
+                        <legend>Extra Info </legend>
+                        <textarea cols="50" rows="10" name="" id=""></textarea>
+                      </fieldset>
+                      <input type="submit" value="submit">
+                      <input type="reset" value="Clear">
                 </form>
             </section>
         </main>
